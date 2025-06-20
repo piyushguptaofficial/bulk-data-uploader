@@ -37,9 +37,11 @@ cd frontend
 npm install
 npm start
 
-📹 Demo
+
+## Demo video
 Check out the full video walkthrough on YouTube
 https://youtu.be/Q1TfKGSm3VM
+
 
 🧠 Learnings
 Redis caching integration
