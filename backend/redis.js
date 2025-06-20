@@ -1,10 +1,6 @@
 const Redis = require('ioredis');
 
-const redis = new Redis({
-    host: '172.21.207.8',
-    port: '6379',
-    maxRetriesPerRequest: 20,
-});
+const redis = new Redis('rediss://default:Acd9AAIjcDEzN2IzYmY5YzUxZTE0NTQyYTY2MmI3ODMyYmNjZTNmM3AxMA@topical-tomcat-51069.upstash.io:6379');
 
 redis.on('connect', () => {
     console.log('Redis connected');
