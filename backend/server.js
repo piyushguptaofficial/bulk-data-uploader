@@ -7,6 +7,8 @@ const fileUpload = require('express-fileupload');
 const redis = require('./redis'); // ✅ Redis connection import
 const fs = require('fs');
 const csv = require('csv-parser');
+require("dotenv").config();
+// const express = require("express");
 
 const app = express();
 const PORT = 5000;
